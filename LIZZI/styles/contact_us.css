@@ -1,0 +1,19 @@
+.contact_us_container{
+    width: 100%;          
+    height: 500px; 
+    display: flex;      
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-bottom:25px;
+}
+
+.contact_us_header{
+    font-size: 100px;
+    margin-bottom: -10px;
+    letter-spacing: -2px;
+    font-family: Manrope;
+    font-weight: 400;
+    color: #4f4f4f;
+}

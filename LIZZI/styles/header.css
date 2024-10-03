@@ -1,0 +1,66 @@
+.header_container{
+    width: 100%;          
+    height: 760px;          
+    background-color: rgb(146, 19, 19);
+    color: white;
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 25px;
+    background-image:url("images/vertis north.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;            
+    position: absolute;             
+    width: 100%;                   
+    top: 40px;                       
+    z-index: 100;                   
+    color: white;                   
+}
+
+.header_links {
+    margin-right: 30px;
+}
+
+.header_links a {
+    margin-right: 32px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.brand_name {
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.header_introduction{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    max-width: 800px;  
+    position: relative;   
+}
+
+.header_introduction h1 {
+    margin-bottom: 0;
+    font-size: 70px;
+    font-family: Manrope;
+}
+
+.header_introduction p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
