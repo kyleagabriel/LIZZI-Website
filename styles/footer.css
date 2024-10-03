@@ -1,0 +1,23 @@
+.footer_container{
+    width: 100%;                   
+    display: flex;
+    margin-bottom:25px;
+    justify-content: space-between;
+}
+
+.footer_brand{
+    margin-left: 61px;
+    color: #4f4f4f;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -2px;
+    font-family: Manrope;
+}
+
+.footer_email{
+    margin-right: 61px;
+    color: #7877E6;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 18px;
+}
